@@ -6,7 +6,7 @@ Cette application est l'API d'un portail de mise en relation entre les futurs lo
 
 Pré-requis :
 - il est nécessaire d'avoir une base mysql intitulée "rentals", et d'un user avec les droits sur la base.
-- pour la gestion des images, il faut avoir un dossier /Users/a240707/Temp/StorageRentalPics créé en local et un Simple Web Server pointant sur ce dossier, lanchttps://openclassrooms.com/fr/paths/533/projects/1303/assignmenté sur le port 8081
+- pour la gestion des images, il faut avoir un dossier /rentalsimages/ créé en local et un Simple Web Server pointant sur ce dossier
 
 1. Clonez le dépôt git avec la commande suivante dans un terminal : `git clone https://github.com/cedh44/Projet3APIRentals`
 2. Installation des dépendances et compilation : placez vous dans le répertoire racine du projet et tapez `mvn clean install`
