@@ -1,6 +1,6 @@
 ## API d'un portail de mise en relation entre locataires et propriétaires
 
-Cette application est l'API d'un portail de mise en relation entre les futurs locataires et les propriétaires pour de la location saisonnière sur la côte basque.
+Cette application est l'API d'un portail de mise en relation entre les futurs locataires et les propriétaires pour de la location saisonnière.
 
 ## Installation
 
@@ -8,14 +8,14 @@ Pré-requis :
 - il est nécessaire d'avoir une base mysql intitulée "rentals", et d'un user avec les droits sur la base.
 - pour la gestion des images, il faut avoir un dossier /rentalsimages/ créé en local et un Simple Web Server pointant sur ce dossier
 
-1. Clonez le dépôt git avec la commande suivante dans un terminal : `git clone https://github.com/cedh44/Projet3APIRentals`
+1. Clonez le dépôt git avec la commande suivante dans un terminal : `git clone https://github.com/Diengsalla1990/Projet3.git`
 2. Installation des dépendances et compilation : placez vous dans le répertoire racine du projet et tapez `mvn clean install`
 3. Appliquez le script sql suivant, à la racine du projet, à l'aide de la commande suivante : mysql -u root -p rentals < src/main/resources/sql/script.sql
 4. Modifier le fichier application.properties pour ajouter les variables d'environnement aux propriétés spring.datasource.username et spring.datasource.password (cela concerne le couplet user/mot de passe de la base mysql)
 
 ## Lancer l'application
 
-Ce projet a été développé sous IntelliJ IDEA.
+Ce projet a été développé sous ECLIPSE IDEA.
 Pour lancer l'application, cliquez sur la classe RentalsApplication.java et cliquez sur Run.
 
 Une autre façon de lancer l'application est de taper la commande suivante dans un terminal, à la racine du projet  : mvn spring-boot:run
